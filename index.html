@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hamburger Menu</title>
+</head>
+<body>
+    <div class="card">
+        <h1 class="card__header">Tip calculator</h1>
+        <div class="card-bot">
+            <p class="card__text">How much was your bill?</p>
+            $ <input class="card__input"  id="bill" type="text" size="30" placeholder="Bill Amount">
+            <p class="card__text">How was your service?</p>
+            <select class="card__dropdown" id="quality">
+                <option class="card__option">-- Choose an Option --</option>
+                <option value= 0.05 class="card__option">Bad 5%</option>
+                <option value= 0.10 class="card__option">It was ok 10%</option>
+                <option value= 0.15 class="card__option">Solid 15%</option>
+                <option value= 0.20 class="card__option">Awesome 20%</option>
+                <option value= 0.30 class="card__option">Outstanding 30%</option>
+            </select>
+            <p class="card__text">How many people are sharing the bill?</p>
+            <input class="card__input" type="text" id="people" size="30" placeholder="Number of People" required="required"> people
+            <button class="card__btn" id="calculate" onclick="myFunction()">Calculate!</button>
+        </div>
+    </div>
+
+    <script src="test.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    background-color: brown;
+}
+
+.card {
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.card__header {
+    background-color: rgb(94, 13, 13);
+    color: white;
+    margin: 0;
+    border-radius: 1rem 1rem 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.7rem 0;
+}
+
+.card-bot {
+    background-color: white;
+    margin: 0;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.card__text:first-child {
+    margin-top: 0;
+}
+
+.card__input {
+    padding: 0.5rem;
+}
+
+.card__dropdown {
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
+
+.card__btn {
+    display: block;
+    padding: 0.8rem 3rem;
+    font-size: 1.3rem;
+    color: white;
+    background-color: firebrick;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.3rem;
+    margin: 2rem auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card__btn:hover {
+    background-color: rgb(119, 27, 27);
+}
+
